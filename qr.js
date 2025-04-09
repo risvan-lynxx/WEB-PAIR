@@ -78,7 +78,7 @@ SESSION HERE ✅ `;
                         await sock.sendMessage(sock.user.id, {
 text: desc,
 
-{quoted:code })
+quoted:code })
                     } catch (e) {
                             let ddd = sock.sendMessage(sock.user.id, { text: e });
                             let desc = `*ZENHHH*
@@ -88,7 +88,7 @@ SESSION HERE ✅
                             await sock.sendMessage(sock.user.id, {
 text: desc,
 
-{quoted:ddd })
+quoted:ddd })
                     }
                     await delay(10);
                     await sock.ws.close();
